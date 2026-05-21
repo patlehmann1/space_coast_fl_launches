@@ -2,14 +2,7 @@
 
 See the next 5 rocket launches from Cape Canaveral, right in your terminal.
 
-```
-  #1  FALCON 9 BLOCK 5 | STARLINK GROUP 10-31
-      Falcon 9 Block 5  ·  Space Launch Complex 40
-      Thu May 21, 2026 at 6:04 AM EDT  |  T- 7h 24m
-
-      A batch of 29 satellites for the Starlink mega-constellation -
-      SpaceX's project for space-based Internet communication system.
-```
+![fl-launches screenshot](docs/screenshot.png)
 
 ## Installation
 
