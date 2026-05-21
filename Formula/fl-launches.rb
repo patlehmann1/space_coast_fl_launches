@@ -2,25 +2,25 @@
 # To publish manually, copy this to your homebrew-fl-launches tap repo.
 class FlLaunches < Formula
   desc "Next rocket launches from Cape Canaveral, right in your terminal"
-  homepage "https://github.com/plehmann/fl-launches"
+  homepage "https://github.com/patlehmann1/space_coast_fl_launches"
   version "1.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/plehmann/fl-launches/releases/download/v#{version}/fl-launches_darwin_arm64.tar.gz"
+      url "https://github.com/patlehmann1/space_coast_fl_launches/releases/download/v#{version}/fl-launches_darwin_arm64.tar.gz"
       # sha256 will be filled in by GoReleaser
     else
-      url "https://github.com/plehmann/fl-launches/releases/download/v#{version}/fl-launches_darwin_amd64.tar.gz"
+      url "https://github.com/patlehmann1/space_coast_fl_launches/releases/download/v#{version}/fl-launches_darwin_amd64.tar.gz"
       # sha256 will be filled in by GoReleaser
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/plehmann/fl-launches/releases/download/v#{version}/fl-launches_linux_arm64.tar.gz"
+      url "https://github.com/patlehmann1/space_coast_fl_launches/releases/download/v#{version}/fl-launches_linux_arm64.tar.gz"
     else
-      url "https://github.com/plehmann/fl-launches/releases/download/v#{version}/fl-launches_linux_amd64.tar.gz"
+      url "https://github.com/patlehmann1/space_coast_fl_launches/releases/download/v#{version}/fl-launches_linux_amd64.tar.gz"
     end
   end
 

@@ -16,7 +16,7 @@ See the next 5 rocket launches from Cape Canaveral, right in your terminal.
 ### macOS — Homebrew
 
 ```bash
-brew tap plehmann/fl-launches
+brew tap patlehmann1/fl-launches
 brew install fl-launches
 ```
 
@@ -24,18 +24,18 @@ brew install fl-launches
 
 ```bash
 # Apple Silicon (M1/M2/M3)
-curl -L https://github.com/plehmann/fl-launches/releases/latest/download/fl-launches_darwin_arm64.tar.gz | tar -xz
+curl -L https://github.com/patlehmann1/space_coast_fl_launches/releases/latest/download/fl-launches_darwin_arm64.tar.gz | tar -xz
 sudo mv fl-launches /usr/local/bin/
 
 # Intel Mac
-curl -L https://github.com/plehmann/fl-launches/releases/latest/download/fl-launches_darwin_amd64.tar.gz | tar -xz
+curl -L https://github.com/patlehmann1/space_coast_fl_launches/releases/latest/download/fl-launches_darwin_amd64.tar.gz | tar -xz
 sudo mv fl-launches /usr/local/bin/
 ```
 
 ### Linux — Homebrew (Linuxbrew)
 
 ```bash
-brew tap plehmann/fl-launches
+brew tap patlehmann1/fl-launches
 brew install fl-launches
 ```
 
@@ -43,11 +43,11 @@ brew install fl-launches
 
 ```bash
 # x86_64
-curl -L https://github.com/plehmann/fl-launches/releases/latest/download/fl-launches_linux_amd64.tar.gz | tar -xz
+curl -L https://github.com/patlehmann1/space_coast_fl_launches/releases/latest/download/fl-launches_linux_amd64.tar.gz | tar -xz
 sudo mv fl-launches /usr/local/bin/
 
 # ARM64 (Raspberry Pi, etc.)
-curl -L https://github.com/plehmann/fl-launches/releases/latest/download/fl-launches_linux_arm64.tar.gz | tar -xz
+curl -L https://github.com/patlehmann1/space_coast_fl_launches/releases/latest/download/fl-launches_linux_arm64.tar.gz | tar -xz
 sudo mv fl-launches /usr/local/bin/
 ```
 

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/plehmann/fl-launches/api"
+	"github.com/patlehmann1/space_coast_fl_launches/api"
 )
 
 const wrapWidth = 64

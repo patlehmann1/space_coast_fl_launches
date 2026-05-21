@@ -41,10 +41,10 @@ changelog:
 brews:
   - name: fl-launches
     repository:
-      owner: plehmann
+      owner: patlehmann1
       name: homebrew-fl-launches
       token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
-    homepage: "https://github.com/plehmann/fl-launches"
+    homepage: "https://github.com/patlehmann1/space_coast_fl_launches"
     description: "Next 5 rocket launches from Cape Canaveral, right in your terminal"
     license: "MIT"
     install: |

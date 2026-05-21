@@ -1,4 +1,4 @@
-module github.com/plehmann/fl-launches
+module github.com/patlehmann1/space_coast_fl_launches
 
 go 1.25.3
 

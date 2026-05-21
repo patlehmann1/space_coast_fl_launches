@@ -11,7 +11,7 @@ const (
 	baseURL    = "https://ll.thespacedevs.com/2.2.0/launch/upcoming/"
 	// Location ID 12 = Cape Canaveral (covers all KSC + CCSFS pads)
 	locationID = "12"
-	userAgent  = "fl-launches/1.0 (https://github.com/plehmann/fl-launches)"
+	userAgent  = "fl-launches/1.0 (https://github.com/patlehmann1/space_coast_fl_launches)"
 )
 
 type Launch struct {

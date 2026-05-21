@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/plehmann/fl-launches/api"
-	"github.com/plehmann/fl-launches/display"
+	"github.com/patlehmann1/space_coast_fl_launches/api"
+	"github.com/patlehmann1/space_coast_fl_launches/display"
 )
 
 const version = "1.0.0"
